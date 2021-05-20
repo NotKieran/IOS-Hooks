@@ -1,0 +1,2 @@
+#!/bin/bash
+commit-colors $(git rev-parse HEAD)
