@@ -16,7 +16,7 @@ else
 	exit 1
 fi
 
-RESULT=$($LINT lint --quiet)
+RESULT=$($LINT --fix && $LINT lint --quiet)
 
 if [ "$RESULT" == '' ]; then
 	printf "SwiftLint Finished.\n"
