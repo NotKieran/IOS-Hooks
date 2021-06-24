@@ -4,10 +4,12 @@ Useful hooks for ios dev
 # How to use
 `git config core.hooksPath <Path to repo>`
 
-## Prerequisite
+# Prerequisite
+```
 brew tap sparkbox/commit-colors
 brew install commit-colors
 brew install swiftlint
+```
 
 # Hooks
 ## Pre-commit
